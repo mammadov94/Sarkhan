@@ -6,6 +6,5 @@ public class Lesson3 {
         int a = 15;
         int b = 5;
         System.out.println("Количество цифр: " + (a / b ));
-
     }
 }
