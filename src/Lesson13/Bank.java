@@ -8,12 +8,14 @@ public class Bank {
     private String name;
     private List<BankBranch> bankBranch;
     private List<Employee> employees;
+    private List<Atm> atms;
 
     public Bank(Long id, String name) {
         this.id = id;
         this.name = name;
         this.bankBranch=new ArrayList<>();
         this.employees=new ArrayList<>();
+        this.atms=new ArrayList<>();
     }
 
     public Long getId() {

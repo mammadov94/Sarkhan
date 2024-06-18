@@ -4,6 +4,7 @@ public class BankBranch {
     private Long id;
     private String adress;
     private Bank bank;
+    private Atm atms;
 
     public BankBranch(Long id,String adress) {
         this.id = id;

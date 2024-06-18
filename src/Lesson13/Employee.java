@@ -1,5 +1,8 @@
 package Lesson13;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Employee {
     private Long id;
     private String name;
@@ -8,6 +11,8 @@ public class Employee {
     private Long phoneNumber;
     private String finCode;
     private Bank bank;
+    private List<AtmWithDrawEmployees> atmWithDrawEmployees;
+    private ReportEmployees reportEmployees;
 
     public Employee(Long id, String name, double salary, String adress, Long phoneNumber, String finCode) {
         this.id = id;
@@ -16,6 +21,7 @@ public class Employee {
         this.adress = adress;
         this.phoneNumber = phoneNumber;
         this.finCode = finCode;
+        this.atmWithDrawEmployees=new ArrayList<>();
     }
 
     public Long getId() {

@@ -6,6 +6,7 @@ public class Card {
     private short cvv;
     private BankAccount bankAccount;
 
+
     public Card(Long id, Long carNumber, short cvv) {
         this.id = id;
         this.carNumber = carNumber;

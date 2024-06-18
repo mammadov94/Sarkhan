@@ -10,6 +10,7 @@ public class Customer {
     private String email;
     private List<BankAccount> bankAccounts;
 
+
     public Customer(Long id, String name, String adress, Long phoneNumber, String email) {
         this.id = id;
         this.name = name;

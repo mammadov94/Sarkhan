@@ -11,6 +11,7 @@ public class BankAccount {
     private List<Transaction> transactions;
     private List<Loans> loans;
 
+
     public BankAccount(Long id, boolean accountType, double balance) {
         this.id = id;
         this.accountType = accountType;

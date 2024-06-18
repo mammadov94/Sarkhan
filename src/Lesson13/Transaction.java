@@ -7,6 +7,7 @@ public class Transaction {
     private BankAccount fromAccount;
     private BankAccount toAccount;
 
+
     public Transaction(Long id, double amount, String description) {
         this.id = id;
         this.amount = amount;
